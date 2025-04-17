@@ -1,15 +1,16 @@
 import React from "react";
 import Header from "../header/Header";
-import { Outlet } from "react-router";
 import Footer from "../Footer/Footer";
+import SideBar from "../SideBar/SideBar"
+
 import "./Root.css";
-import SideBar from "../SideBar/SideBar";
+import { Outlet } from "react-router";
 
 const Root = () => {
   return (
-    <div className="text">
+    <div className="container">
       <Header></Header>
-      <div className="root-main">
+      <div className="flex">
         <SideBar></SideBar>
         <Outlet></Outlet>
       </div>

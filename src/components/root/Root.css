@@ -1,10 +1,12 @@
-.text{
-    text-align: center;
-    width: 400px;
+.container{
+    width: 40%;
     margin: auto;
     padding: auto;
+    margin-top: 100px;
+    text-align: center;
 }
-.root-main{
+.flex{
     display: flex;
-    gap: 20px;
+    justify-content: space-around;
+    padding: 10px;
 }
